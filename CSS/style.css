@@ -1,0 +1,75 @@
+.mainbody{
+    background-image: url(/Photo/hypersonic2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bcenter3{
+	color: red;
+}
+h1,h2,h3,h4,label{
+    color: red;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+table,th,td{
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    border-radius: 10px;
+}
+caption{
+    color: red;
+    font-weight: 800;
+    font-size: xx-large;
+}
+#td2{
+        font-size: xx-large;
+        color: red;
+        font-style: italic;
+        font-weight: 1000;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        padding-right: 40px;
+}
+#td1{
+    padding-top: 20px;
+        padding-bottom: 20px;
+}
+#td3{
+    color: red;
+    font-size: xx-large;
+    font-weight: 1000;
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#td4{
+    color: red;
+    font-size: xx-large;
+}
+
