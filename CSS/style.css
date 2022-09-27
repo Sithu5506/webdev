@@ -73,3 +73,35 @@ caption{
     font-size: xx-large;
 }
 
+button.java{
+  cursor: pointer;
+  float: right;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: lightgreen;
+  font-weight: 700;
+}
+img.logo1{
+  overflow: auto;
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+img.logo2{
+  overflow: auto;
+  float: right;
+  height: 100px;
+  width: 100px;
+}
+.clear1{
+  clear: right;
+}
+.help{
+  background-color: red;
+  cursor: help;
+  padding: 20px;
+  border-radius: 30px;
+}
+#span1{
+  display: block;
+}

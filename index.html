@@ -11,7 +11,7 @@
 </head>
 <h1 style="text-align:center ;">This is only for purpose of School Testing Project</h1>
 <body class="mainbody">
-    <iframe src="memberlogin.html" frameborder="0" name="iframe_a" title="loginpage" height="150%" width="15%" style="position: absolute; right: 0px; top: 0px;"></iframe>
+    <iframe src="memberlogin.html" id="theFrame" frameborder="0" name="theFrame" title="loginpage" height="150%" width="15%" style="position: absolute; right: 0px; top: 0px;"></iframe>
     <label for="language" id="language" style="color:red; font-weight: 700; position: relative; top: -25px;">language :</label>
     <select style="position: relative; top: -25px;">
         <option value="1">English</option>
@@ -20,6 +20,7 @@
     </select>
     <br><br>
     <h1 style="text-align:center">Welcome To Hypersonic Cloud Service</h1>
+<p>
 <div>
     <table style="width:70% ; text-align: center; position: relative; left:15%;">
     <caption>VPS Pricing</caption>
@@ -63,10 +64,13 @@
         
     </tbody>
 </table>
-<a href="label4.html" target="iframe_a"><img src="Photo/singup.png" alt="" height="40px" width="90px" style="position:absolute; left: 20%;"></a>
-<a href="label4.html" target="iframe_a"><img src="Photo/singup.png" alt="" height="40px" width="90px" style="position:absolute; left: 38%;"></a>
-<a href="label4.html" target="iframe_a"><img src="Photo/singup.png" alt="" height="40px" width="90px" style="position:absolute; left: 56%;"></a>
-<a href="label4.html" target="iframe_a"><img src="Photo/singup.png" alt="" height="40px" width="90px" style="position:absolute; left: 74%;"></a>
+<button class="java" type="button" onclick="clickFun()" style="position:absolute; left: 20%;">Click Here</button>
+<button class="java" type="button" onclick="clickFun()" style="position:absolute; left: 38%;">Click Here</button>
+<button class="java" type="button" onclick="clickFun()" style="position:absolute; left: 56%;">Click Here</button>
+<button class="java" type="button" onclick="clickFun()" style="position:absolute; left: 74%;">Click Here</button>
+<button class="help" type="button" onclick="helpFun()" style="float: left;">Help</button>
+    <script src="java.js"></script>
 </div>
+</p>
 </body>
 </html>
