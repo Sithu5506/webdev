@@ -75,7 +75,6 @@ caption{
 
 button.java{
   cursor: pointer;
-  float: right;
   padding: 10px;
   border-radius: 15px;
   background-color: lightgreen;
