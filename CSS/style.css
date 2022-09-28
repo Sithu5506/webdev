@@ -39,6 +39,7 @@ table,th,td{
     border-collapse: collapse;
 }
 table{
+    max-width: 100%;
     border-radius: 10px;
 }
 caption{
