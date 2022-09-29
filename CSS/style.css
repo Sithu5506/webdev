@@ -39,7 +39,6 @@ table,th,td{
     border-collapse: collapse;
 }
 table{
-    max-width: 100%;
     border-radius: 10px;
 }
 caption{
@@ -86,6 +85,7 @@ img.logo1{
   float: left;
   height: 50px;
   width: 50px;
+  margin-right:5px;
 }
 img.logo2{
   overflow: auto;
