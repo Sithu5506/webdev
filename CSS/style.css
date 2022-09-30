@@ -7,6 +7,10 @@
 }
 .bcenter3{
 	color: red;
+  margin-left: 20px;
+}
+.bcenter4{
+	color: red;
 }
 h1,h2,h3,h4,label{
     color: red;
@@ -107,4 +111,7 @@ img.logo2{
 }
 .logindiv{
   width: 1px;
+}
+.loginfieldset{
+  border-style: hidden;
 }
