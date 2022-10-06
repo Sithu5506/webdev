@@ -10,9 +10,34 @@
 	h1,p{
 		color:white;
 }
+li{
+            list-style: none;
+            padding: 10px;
+        }
+        li::before{
+            content: '';
+            float: left;
+            margin-right: 5px;
+            height: 24px;
+            width: 20px;
+            background-image: url('/Photo/404-tick.png');
+            background-size: 20px;
+            background-repeat: no-repeat;
+        }
+        .listservices{
+            color: lightseagreen;
+            text-shadow: 1px 1px rebeccapurple;
+        }
 	</style>
 </head>
-<body> 
+<body>
+<h1 class="listservices">List Of Services</h1>
+<ul>
+
+    <li>VPS Services</li>
+    <li>Cloud Storage</li>
+    <li>Hosting Services</li>
+</ul>
 <h1>About Hypersonic</h1>
     <p><img class="logo1" src="Photo/Hypersonic_logo.png" alt="">
     In 2006,<span style="color:red;"> Hypersonic </span> Web Services (Hypersonic) began offering IT infrastructure services to businesses in the form of web services -- now commonly known as cloud computing. One of the key benefits of cloud computing is the opportunity to replace up-front capital infrastructure expenses with low variable costs that scale with your business. With the Cloud, businesses no longer need to plan for and procure servers and other IT infrastructure weeks or months in advance. Instead, they can instantly spin up hundreds or thousands of servers in minutes and deliver results faster.
@@ -20,6 +45,7 @@
 Today, Hypersonic Web Services provides a highly reliable, scalable, low-cost infrastructure platform in the cloud that powers hundreds of thousands of businesses in 190 countries around the world. With data center locations in the U.S., Europe, Brazil, Singapore, Japan, and Australia, customers across all industries are taking advantage of the following benefits:
 </p>
 <img class="logo2" src="Photo/Hypersonic_logo2.png" alt="">
+
 <h1 class="clear1">
     Low costs
 </h1>
