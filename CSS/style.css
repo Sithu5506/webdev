@@ -37,18 +37,24 @@ a:active {
   text-decoration: underline;
 }
 
-table,th,td{
-    background-color: white;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
 table{
-    border-radius: 10px;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+th,td{
+  border: 1px solid black;
+}
+th{
+  padding: 10px;
 }
 caption{
     color: red;
     font-weight: 800;
     font-size: xx-large;
+}
+tr:hover{
+  background-color: skyblue;
 }
 #td2{
         font-size: xx-large;
@@ -71,6 +77,11 @@ caption{
     background-color: aquamarine;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+#td3:hover{
+  background-color: black;
+  color:gold;
+  text-shadow: 2px 2px 2px red;
 }
 #td4{
     color: red;
